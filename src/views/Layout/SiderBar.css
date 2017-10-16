@@ -1,0 +1,9 @@
+.ant-avatar-lg{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+}
+.ant-avatar-lg > *{
+  line-height: 60px;
+}
