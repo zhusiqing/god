@@ -7,3 +7,18 @@
 .ant-avatar-lg > *{
   line-height: 60px;
 }
+.logo h1{
+  color: rgba(255, 255, 255, 0.67);
+}
+.welcome-user{
+  text-align: center;
+  margin-right: 40px;
+  margin-top: -10px;
+}
+.ant-avatar-lg{
+  margin-left: 50px;
+}
+.logo{
+  text-align: center;
+  margin-right: 20px;
+}

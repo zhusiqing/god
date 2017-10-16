@@ -1,3 +1,8 @@
-.head-user{
-  width: 200px;
+.head-user .ant-dropdown-link{
+  float: right;
+}
+.head-user .avatar{
+  float: left;
+  margin-top:8px;
+  margin-right:5px;
 }

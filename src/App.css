@@ -13,3 +13,9 @@
   border-radius: 6px;
   margin: 16px;
 }
+.ant-layout-sider{
+  padding-right: 10px;
+}
+.ant-layout-content{
+  padding-left: 10px;
+}

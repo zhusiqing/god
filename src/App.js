@@ -5,6 +5,7 @@ import createHistory from 'history/createHashHistory';
 import {Layout,Icon} from 'antd';
 const {Header,Footer,Sider,Content} = Layout;
 
+import './reset.css';
 import './App.css';
 
 import routes from './routes';

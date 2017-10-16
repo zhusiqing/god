@@ -35,8 +35,9 @@ class SiderBar extends Component{
             <a href="javascript:void(0);">
               <h1><img src="" alt=""/>奇点后台</h1>
             </a>
-        </div>
+          </div>
           <Avatar size="large" icon="user"></Avatar>
+          <div className="welcome-user">欢迎，{`管理员`}</div>
             
           <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Navigation One</span></span>}>
             <Menu.Item key="1">Option 1</Menu.Item>
