@@ -9,7 +9,7 @@ const {SubMenu} = Menu;
 class SiderBar extends Component{
   rootSubmenuKeys=['sub1', 'sub2', 'sub3', 'sub4', 'sub5', 'sub6', 'sub7', 'sub8', 'sub9', 'sub10'];
   state = {
-    openKeys: ['sub1'],
+    openKeys: [],
   };
   onOpenChange = (openKeys) => {
     const latestOpenKey = openKeys.find(key => this.state.openKeys.indexOf(key) === -1);

@@ -6,3 +6,11 @@
   margin-top:8px;
   margin-right:5px;
 }
+a{
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+.ant-layout-header{
+  background-color: #b7b7b9;
+}

@@ -15,7 +15,8 @@ module.exports = {
             { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }, // 处理sass文件的匹配规则
             { test: /\.(png|jpg|jpeg|gif|bmp)$/, use: 'url-loader?limit=10240' }, //  处理图片文件的匹配规则
             { test: /\.(woff|ttf|svg|woff2|eot)$/, use: 'url-loader' }, // 处理字体文件的匹配规则
-			{ test:/\.js|jsx$/,use:'babel-loader',exclude:/node_modules/ }
+            { test:/\.js|jsx$/,use:'babel-loader',exclude:/node_modules/ },
+            { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] }, // 处理sass文件的匹配规则            
         ]
     },
     // devServer: { //  --open --port 3000 --hot
