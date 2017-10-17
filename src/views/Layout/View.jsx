@@ -10,7 +10,15 @@ export default class View extends Component {
     return (
       <Content style={{overflow:'initial'}}>
       {routes.map(
-        (val,index) => <Route path = {val.path} name = {val.name} component = { val.component } key = {index}></Route>
+        (route,index) => {
+          if(route.name==="login")
+            return false;
+          return (
+            <Route key={index} path={route.path} name={route.name} render={props=>(
+              <route.component {...props} routes={route.routes}/>
+            )}/>
+          )
+        }
       )}
       </Content>
     )
